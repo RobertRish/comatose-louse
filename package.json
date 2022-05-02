@@ -1,7 +1,7 @@
 {
   "name": "book-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -9,14 +9,18 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertRish/comatose-louse.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.1.0"
+  "bugs": {
+    "url": "https://github.com/RobertRish/comatose-louse/issues"
   },
+  "homepage": "https://github.com/RobertRish/comatose-louse#readme",
   "dependencies": {
-    "apollo-server-express": "^2.15.0",
-    "graphql": "^15.8.0"
+    "concurrently": "^7.1.0"
   }
 }
